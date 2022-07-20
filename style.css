@@ -44,14 +44,15 @@ main {
     margin: 10px;
     border-radius: 10px;
     padding: 10%;
-    height: 40%;
+    height: 30%;
     width: 45%;
     background: #000;
     grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+
 }
 
 .abtn {
-    margin: 10%;
     text-align: center;
     width: 80%;
     padding-left: 10%;
@@ -73,10 +74,28 @@ main {
     grid-column-gap: 10px;
 }
 
+/* .m {
+    justify-content: center;
+    justify-items: center;
+} */
+
+strong,
+b {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.abmatch img {
+    height: 100px;
+    width: 100px;
+}
+
+
 footer {
     padding-top: 50px;
     text-align: center;
-    text-decoration: aqua;
+    background-color: forestgreen;
 }
 
 span {
