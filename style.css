@@ -38,7 +38,7 @@ main {
     display: grid;
     grid-template-columns: 30% auto;
     grid-column-gap: 4px;
-    height: 500px;
+    height: 600px;
     width: 100%;
 }
 
