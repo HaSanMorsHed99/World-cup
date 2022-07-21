@@ -41,11 +41,11 @@ main {
 }
 
 #fhalf {
-    margin: 10px;
+    margin-left: 30px;
     border-radius: 10px;
     padding: 10%;
     height: 30%;
-    width: 45%;
+    width: 30%;
     background: #000;
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
@@ -74,6 +74,7 @@ main {
     grid-column-gap: 10px;
 }
 
+
 /* .m {
     justify-content: center;
     justify-items: center;
@@ -93,6 +94,7 @@ b {
 
 
 footer {
+    margin-top: 30px;
     padding-top: 50px;
     text-align: center;
     background-color: forestgreen;
@@ -100,4 +102,19 @@ footer {
 
 span {
     padding-left: 10px;
+}
+
+/* Smaller device */
+@media screen and (max-width: 576px) {
+    div aside {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* medium device */
+@media screen and (min-width:577px) and (max-width:992px) {
+    div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
